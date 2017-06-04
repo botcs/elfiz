@@ -55,7 +55,92 @@ elektródokkal potenciálváltozásként elvezethető.
 
 
 
-2. A biopotenciál elvezető elektródok jellemző tulajdonságai (impedancia, frekvencia átvitel)
+# 2. A biopotenciál elvezető elektródok jellemző tulajdonságai (impedancia, frekvencia átvitel)
+
+## Alapfogalmak
+
+  - **Elsőfajú vezető / elektronvezető**: az az anyag ahol az elektron elmozdulása hozza létra az elektromos áramot.
+  - **Másodfajú vezető / ionvezerő**: olyan anyag ill. oldat, ahol töltéssel bíró részecskék (ionok) elmozdulása hozza létra az áramot.
+  - **Elektród: Szűkebb értelemben egy eletronvezető, tágabb értelemben egy elektronvezető és egy elektrolit együttese.
+  - **Elektród potenciál**: Az elektronok potenciális energiája az elektródon (elvi definíció, mivel ennek abszolút értéke nem határozható meg)
+  A valóságban olyan relatív érték, melyet egy önkényesen kiszemelt Föld-ponthoz, a standard hidrogénelektród potenciáljához viszonyítunk: annaka galvánelemnek az elektromos ereje, amelynek egyik elektródja a vizsgált, a másik a standard hidrogénelektród.
+  - **Nempolározódó elektród**: Az elektródreakcióban résztvevő fém saját sójával érintkezik és a só anionját tartalmazó oldatba merül. Pl: ezüst/ezüstklorid, AgCl + e <-> Ag + Cl(-)
+
+## Biopotenciál elvezetés
+*Kapcsolat élő és élettelen rendszer között*
+mérő elektródok - biológiai rendszer
+
+**Mindig két elektród közötti potenciál-különbséget mérünk**
+
+![](eeg-elvezetes.png)
+  - MINDIG 1 FÖLD
+  - Monopoláris: 1 indifferens (referens), a többi aktív (csak egy elektród van aktív szövetben/-en a másik, indifferens/0 potenciálú helyen van)
+  - Bipoláris: Ami az egyiknek referens a másiknak aktív (mindkét elektród aktív felületen van, vagy a szövetben helyezkedik el)
+  - Közös átlag indifferens: külön aktív elektródok, egy indifferenssel összekötve egy-egy nagy ellenálláson keresztül.
+  - Forrás átlag indifferens elvezetés: hasonló az előzőhöz de több indifferens van
+
+## Elektród típusok (Agyi bioelektromos jelekhez)
+  ***Ideális elektród nincs***
+  - Intracelluláris mikroelvezetés:
+    - üvegkapilláris mikroelektród (patch-clamp elektród)
+  - Extracelluláris mikroelvezetés:
+    - üvegkapilláris mikroelektród
+    - hegyezett fém elektród, lakk szigetelés
+    - hegyezett fém elektród, üveg szigetelés
+    - szénszál, üveg kapilláris szigetelés
+    - szigetelt vékony fémhuzal (fine wire electrode)
+    - tetród
+    - multielektród
+  - Lokális mezőpotenciál elvezetés (LocalFieldPotential - LFP):
+    - Fentiek bármelyike
+  - Makropotenciál elvezetés:
+    - Felszíni elvezetés:
+      - fém korong elektród
+      - Ag/AgCl elektród
+    - Intracerebelláris/muszkuláris:
+      - szigetelt fémhuzal elektród
+      - multielektród
+      - tű elektród
+
+## Tartományok
+  - Scalp - 2-10mm - 10-200 uV
+  - Epidural - 1-3mm - 0.1-4 mV
+  - Surface (Brain) - 1-3 mm - 0.2-5 mV
+  - Extracellular - 1-50 um - 0.4-20 mV
+  - Intracellular - 0.5-3 um - 1-100 mV
+![](electrode-types.png)
+
+## Elektródok általános tulajdonságai
+  1. Elektród impedancia
+  2. Elektród potenciál
+  3. Elektród stabilitás, biokompatibilitás
+
+  Nagyságrendi adatok:
+  - **Ellenállás**
+    - Réz: 1.7 uOhm cm
+    - [3M] KCl: 5 Ohm cm
+    - Tengervíz: 22 Ohm cm
+    - Fiziológiás oldat: 70 Ohm cm
+    - Csapvíz: 0.2-10 Ohm cm
+    - Desztillált víz: 1-5 MOhm cm
+  - **Neuron**
+    - R-membrán: 10-100 kOhm cm^2
+    - R-20 um átmérőjű neuron: ~200 MOhm
+    - C-memberán: 1 uF/cm^2
+    - C-20 um átmérőjű neuron: ~50 pF
+    - R-intracelluláris térben: 50-200 Ohm cm
+
+## Elektród impedancia helyettesítő áramköre
+*Elektród bemenő impedanciája méretétől és anyagától függ*
+
+![](electrode-imp.png)
+
+## Bipoláris elvezetés helyettesítő áramköre
+
+![](bipolar-helyett.png)
+
+
+
 3. Fém elektródok jellemzői, az elektród potenciál fogalma és jelentősége
 4. A sejtaktivitás befolyásolása iontoforézissel
 5. A membránpotenciál létrejöttéért felelős folyamatok
@@ -65,19 +150,26 @@ elektródokkal potenciálváltozásként elvezethető.
 9. A biológiai előerősítők jellemző tulajdonságai
 10. Stereotaxiás módszer
 # 11. Az EEG elvezetés technikája
+
 ![](eeg-elvezetes.png)
+
 ![](paperless-eeg.png)
+
 ![](diff-amp.png)
+
 ## Az EEG elektródok elnevezése
+
 ![](eeg-elnevez.png)
 ## Ag/AgCl ragasztós elektródok
+
 ![](agcl.png)
 ## Elvezetés típusai
 Elvezetések felhelyezésének módja: -montázs-
+
 ![](eeg-elvezetes.png)
   - MINDIG 1 FÖLD
-  - Monopoláris: 1 indifferens (referens), a többi aktív
-  - Bipoláris: Ami az egyiknek referens a másiknak aktív
+  - Monopoláris: 1 indifferens (referens), a többi aktív (csak egy elektród van aktív szövetben/-en a másik, indifferens/0 potenciálú helyen van)
+  - Bipoláris: Ami az egyiknek referens a másiknak aktív (mindkét elektród aktív felületen van, vagy a szövetben helyezkedik el)
   - Közös átlag indifferens: külön aktív elektródok, egy indifferenssel összekötve egy-egy nagy ellenálláson keresztül.
   - Forrás átlag indifferens elvezetés: hasonló az előzőhöz de több indifferens van
 
@@ -131,13 +223,18 @@ Elvezetések felhelyezésének módja: -montázs-
     - DC offset
     - Aliasing
   - Multiplexing Artifacts
+
 ![](foldhurok.png)
 
 # 13. Az EEG jellemző összetevői, kóros EEG jelek
 ## Spontán EEG összetevői:
+
 ![](eeg-frek.png)
+
 ![](normal-nyugalom-eeg.png)
+
 ![](desync.png)
+
 ## Éberség függő jelek:
   - Awake: low voltage-random, fast
   - Drowsy: 8-12 Hz Alpha
@@ -165,9 +262,13 @@ Elvezetések felhelyezésének módja: -montázs-
     - Tonic
     - Tonic-Clonic (grand mal)
     - Atonic (akinetic)
+
 ![](epi1.png)
+
 ![](epi3.png)
+
 ![](epi4.png)
+
 ### Aktivációs módszerek
   - Visual Stimulation
     - Visual exploration
@@ -191,13 +292,129 @@ Elvezetések felhelyezésének módja: -montázs-
     - Pentylenetetrazol (& ?photic? stimulation)
     - Bemegride
   - Metabolic Toxicity
+    - Hypoglycemia
+    - Hypoxia
   - Special Stimuli
+    - Startle
+    - Reading
+    - Writing
+    - Mental calculation
+    - Mental imagery
+    - Eating
 
-14. Eseményhez-kötött potenciálok (exogén, endogén komponensek)
+# 14. Eseményhez-kötött potenciálok (exogén, endogén komponensek)
+**Event related potential** (ERP) - Valamely diszkrét eseményre való felkészüléskor, külső inger vagy belső tényező hatására kialakuló, az eseményhez időben kötött, több hullámból álló agyi potenciál oszcilláció.
+
+**Evoked potential** (EP) - EKP egy altípusa, szenzoros inger hatására létrejövő, ehez időben kötött, több hullámból álló agyi potenciál oszcilláció
+
+
+## ERP osztályozása:
+  - Szenzoros
+  - Motoros
+  - Eseményhez-kötött (De-)szinkronizáció
+  - Indukált válasz
+
+## ERP-k jellemzése:
+  - Polaritás
+  - Amplitúdó
+  - latencia (csúcs, onset)
+  - lokalizáció (a skalpon)
+  - invariancia (kísérleti változók iránti érzékenység)
+
+## ERP Komponenseinek osztályozása:
+  - Latenciájuk szerint
+    - Korai (10 ms - 0.2 uV)
+    - Közép (50 ms - 0.4 uV)
+    - Késői (500 ms - 4.0 uV)
+  - Kiváltó hatás jellege szerint
+    - Exogén
+    - Endogén
+
+## Komponens definíciója:
+Szigorúbb nyelvhasználatban a komponens egy adott forrás által generált
+ERP-t jelent
+
+### Összefüggés:
+  Korai - Exogén
+  (Közép - Mezogén)
+  Késői - Endogén
+
+
+
+## Az átlagolás SNR javítása
+A vizsgálni kívánt EKP amplitúdója rendszerint jóval kisebb mint a háttér EEG.
+**A MÓDSZER ALAPFELTEVÉSEI**
+- jel(t) = EEG(t) + EKP(t)
+- cov(EEG(t), EKP(t)) = 0  - *függetlenek*
+
+![](averaging-ERP.png)
+
+Javítás átlagolással, függvény:
+*SNR (N átlaggal)-> 2*SNR (4N átlaggal)*
+
+**Brainstem Auditory Evoked Potential** (BAEP)
+**Brainstem Evoked Response Audimetry** (BERA)
+
+## Oddball Paradigma:
+- **Aktív**: Számolja a deviáns (P300 jellmező)
+- **Passzív**: Nem figyel az ingerekre (MMN jellemző) - Eltérési negativitás (Mismatch Negativity - MMN) a kimutatás eszköze
+
+## Komponensek
+  - P300 - (370-390ms az inger után, ~-10 uV)- (Emanuel Donchin) - *Szenzoros információ feldolgozásának befelyezését jelenti*, a feladat nehézségével arányosan növekszik a P300 latenciája is
+  - N1 - (100-120ms, ~+8uV)- (Steven A. Hillyard) Szelektív figyelmi hatás:
+*A standard és deviáns ingereket véletlenszerűen hol a jobb, hol a bal fülbe adják.
+A kísérleti személy feladata az, hogy figyelje és számolja az egyik fülbe érkező
+deviáns ingereket. Elemzik, hogy milyenek a standard ingerekkel kiváltott
+válaszok. A „figyelt” fülbe érkező hangingerek által kiváltott válaszok N1
+komponense nagyobb. A „szelektív figyelem” eredményképpen a „figyelt bemenet”
+érzékenysége fokozott.*
+  - Error Related Negativity (ERN) - (50-150ms a téves válasz után) generátora a gyrus cynguli anterior területén. (Stroop hatás, különböző színnel vannak leírva a színek nevei -> a felolvasás könnyebb mint a szín megmondása)
+  - P150 - nagy a szöveg szerű ingerre (words, pseudowords, pseudofont) kicsi az tárgy szerű ingerre (objects and pseudoobjects) és közepes a pici objektumok sorozatára (Central Cz and Occipital Oz electrode site/zone-on mért eredmények átlaga)
+  - N400 (Kutas Márta -10 uV, szavanként mérhető, Pz electrode) *Szemantikai anomália*: olvasott szöveg esetén az oda nem illő szavaknál lehet erre felfigyelni
+  - P560 (~12-25uV, William Grey Walter) Fizikai eltérés
+  - Contingent Negative Variation (CNV), várakozási hullám a kettő között:
+    - S1: figyelmeztető inger (hang)
+    - S2: feladatjelző inger (fény)
+    - Feladat: S1 jelzi a feladat kezdetét, S2-t minél hamarabb megszakíteni egy gombnyomással.
+    - Eredmény: ha S1 és S2 között több idő telik el, a korai és késői CNV szétválik
+  - Motors Potenciál (MP) (10 uV) CNV-vel egybefűződik: Felkészülési (Bereitschhaft-) potenciál - akaratlagos mozgás előtt jelentkezik
+
+![](N400.png)
+
+![](N400-pizza.png)
+
+## Brain Mapping:
+
+![](brain_mapping.png)
+
 15. EEG-ERP számítógépes analízisének főbb módszerei
 16. EEG genezis, bioelektromos mezők típusai
 17. ERP forrás-analízis jelentősége
-18. „Steady state” válasz, klinikai alkalmazása
+# 18. „Steady state” válasz, klinikai alkalmazása
+## Steady State Response (SSR):
+*Repetitív akusztikus ingerlésnél kb. 40Hz ingergyakoriságnál viszonylag nagy amplitúdójú szinuszoid hullám-alakú ritmikus válasz jelentkezik.*
+## Klinikai alkalmazás - Hallásküszöb meghatározás
+Acoustic Steady State Response (ASSR)
+  - Objektív audiometria
+    - csecsemő
+    - kognitív károsodott
+    - funkcionális hallászavar
+  - Narkózis monitorozás (altatás - a szükségesnél NEM kell mélyebben altatni)
+    - Szenzoros funkció
+    - Narkózis mélysége
+  - Neurológiai vizsgálat
+    - Centrális akusztikus károsodás
+    - Specifikus neurológiai kórképek
+  - Terence W. Picton
+  - Sasha John
+
+## Hanggal kiváltott ASSR (0.2 uV)
+![](assr-am.png)
+
+## Több inger egyszerre (BRAIN alatt ASSR frekvenciatartomány van)
+![](assr-am-multi.png)
+  - Eszköz a mérésre: MASTER és Aurix
+
 19. Magnetoenkefalográfia
 20. Elektromiográfia
 21. EKG elvezetések típusai, az EKG görbe jellemzői
