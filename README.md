@@ -85,7 +85,7 @@ elektródokkal potenciálváltozásként elvezethető.
 
   - **Elsőfajú vezető / elektronvezető**: az az anyag ahol az elektron elmozdulása hozza létra az elektromos áramot.
   - **Másodfajú vezető / ionvezerő**: olyan anyag ill. oldat, ahol töltéssel bíró részecskék (ionok) elmozdulása hozza létra az áramot.
-  - **Elektród: Szűkebb értelemben egy eletronvezető, tágabb értelemben egy elektronvezető és egy elektrolit együttese.
+  - **Elektród**: Szűkebb értelemben egy eletronvezető, tágabb értelemben egy elektronvezető és egy elektrolit együttese.
   - **Elektród potenciál**: Az elektronok potenciális energiája az elektródon (elvi definíció, mivel ennek abszolút értéke nem határozható meg)
   A valóságban olyan relatív érték, melyet egy önkényesen kiszemelt Föld-ponthoz, a standard hidrogénelektród potenciáljához viszonyítunk: annaka galvánelemnek az elektromos ereje, amelynek egyik elektródja a vizsgált, a másik a standard hidrogénelektród.
   - **Nempolározódó elektród**: Az elektródreakcióban résztvevő fém saját sójával érintkezik és a só anionját tartalmazó oldatba merül. Pl: ezüst/ezüstklorid, AgCl + e <-> Ag + Cl(-)
@@ -217,6 +217,11 @@ A két mérőelektród tulajdonságai lehetőleg azonosak legyenek!
 ![](michigan-probe.png)
 
 ![](utah-probe.png)
+  - 1992-ben publikálták
+  - 96 elektród
+  - Platinca vagy iridium-oxid elvezetési pontok
+  - 0.5-1.5 mm hosszú elektródok
+  - 400 um-re egymástál
 
 ## IONTOFORÉZIS
 
@@ -368,8 +373,7 @@ A két mérőelektród tulajdonságai lehetőleg azonosak legyenek!
 4. A sejtaktivitás befolyásolása iontoforézissel
 5. A membránpotenciál létrejöttéért felelős folyamatok
 6. Az akciós potenciál létrejöttéért felelős folyamatok
-7. Az intracelluláris elvezetési módszerek
-
+# 7. Az intracelluláris elvezetési módszerek
 - Intracelluláris mikroelvezetés:
   - üvegkapilláris mikroelektród (***patch-clamp*** elektród)
     - Kis elektróda ellenállás
@@ -400,7 +404,110 @@ A két mérőelektród tulajdonságai lehetőleg azonosak legyenek!
     - + Szabadon mozgó állatokban is használható
     - - Sejten belüli folyamatokat közvetlenül nem méri
 
-8. Extracelluláris mikroelektród elvezetés, sejtazonosítás
+## Current-clamp
+  - Mérhetjük a membrán kapacitását
+  - A membrán ellenállását
+  - Mérhetjük az akcióspotenciál (AP) küszöböt (V_threshold)
+  - Ingerelhetjük, gátolhatjuk a sejtet
+
+![](current-clamp.png)
+
+![](current-clamp-practice.png)
+
+## Kompenzált hatások:
+![](compensed-curr-clamp.png)
+
+![](RC-summary.png)
+
+## Voltage-clamp
+  - Mérhetjük a membránon átfolyó áramot (a membrán kapacitásától függetlenül)
+  - Csak az ioncsatornákon folyó áram a mért változó
+  - Ioncsatornák feszültségfüggése megállapítható
+
+  ![](voltage-clamp.png)
+
+## Töltés kisütés görbe
+
+![](RC.png)
+
+
+# 8. Extracelluláris mikroelektród elvezetés, sejtazonosítás
+  - Sejten kívüli térből
+  - Nem csak üvegkapillárissal mérhető
+  - Akciós potenciál nem detektálható egyértelműen
+  - Sok a sejt - kicsi a jel (az extracelluláris tér jó vezető -> áramok szétfolynak)
+
+## Nagyságrendi adatok (~)
+![](tetrode-nagysagrend.png)
+  - 50 um a vizsgált henger (gyakorlatban kúp), 140 sejt, 60 uV
+  - 140 um a henger, 1100 sejt kb, ? V
+
+## Szűrés a sok elvezetésből
+![](ap-filter.png)
+  - Sávszűrő: 300-3000 Hz
+
+## Tulajdonságok és különbségek
+  - Intracelluláris mikroelvezetés:
+    - **Előnyök-Hátrányok**:
+      - - Technikailag bonyolultabb
+      - + Nagy  jel amplitúdója (1-100 mV)
+      - - Kevés csatornán (1-4) lehet elvezetni
+      - - Szabadon mozgó állatokban nem használható
+      - + Sejten belüli folyamatot közvetlenül méri
+  - Extracelluláris mikroelvezetés:
+    - Elrendezés: Extracell referencia - Intracell aktív  
+    - üvegkapilláris mikroelektród
+    - hegyezett fém elektród, lakk szigetelés
+    - hegyezett fém elektród, üveg szigetelés
+    - szénszál, üveg kapilláris szigetelés
+    - szigetelt vékony fémhuzal (fine wire electrode)
+    - tetród
+    - multielektród
+    - **Előnyök-Hátrányok**:
+      - + Technikailag egyszerűbb
+      - - Alacsony jel amplitdúdó (10-500 uV)
+      - - Kis elektromos zajú erősítők kellenek
+      - + Sok csatornán (10-200) lehet elvezetni
+      - + Szabadon mozgó állatokban is használható
+      - - Sejten belüli folyamatokat közvetlenül nem méri
+
+## Interface Chamber
+![](interface-chamber.png)
+  - + Jobb oxigenáltság
+  - - Sejtek követése vakon (random)
+  - + Sejtek a szelet teljes vastagságában
+  - + Sok hely az extracelluláris elektródoknak
+  - + Szövet minősége kevésbé számít (robosztusabb mérés)
+
+
+## Submerged Chamber
+![](submerged-camera.png)
+  - - Rosszabb oxigenáltság (javítható)
+  - + Sejtek keresése célzottan - nem véletlenszerű
+  - - Sejtek csak a szelet felszínén
+  - - Kevés hely az extracelluláris elektródoknak
+  - - Szövet minősége nagyon fontos (csak fiatal egyedből származó szövet)
+
+## A sejtválogatás lépései:
+  1. Wide band raw signal -> High/BandPass filtering  (300-3000 vagy 500-5000 Hz)
+  2. Filtered signal -> spike extraction
+  3. Spike samples -> Voltage vector extraction -> feature vectors
+  - lehet on-line (brain-computer interface) vagy offline a sejtválogatás
+
+  **NEHÉZSÉGEK**
+  - Átfedő akciós potenciálok
+  - Idegsejtek éppen burst-ölnek (>100 Hz)
+  - Elektróda drift
+  - Háttéraktivitás változása
+  - Ritkán tüzelő Sejtek (<1-2 spike/min)
+  - Multiunit cluster (sok sejt közel van az elektródhoz, de nem eléggé)
+  - Szinkron aktivitás
+  - Non-gaussian cluster
+  - Elektródától egyenlő távlságra található idegsejtek (csak egy elktródás elvezetés esetén)
+
+
+
+
 9. A biológiai előerősítők jellemző tulajdonságai
 # 10. Stereotaxiás módszer
 
@@ -662,7 +769,87 @@ komponense nagyobb. A „szelektív figyelem” eredményképpen a „figyelt be
 ![](brain_mapping.png)
 
 15. EEG-ERP számítógépes analízisének főbb módszerei
-16. EEG genezis, bioelektromos mezők típusai
+# 16. EEG genezis, bioelektromos mezők típusai
+
+## Membránok által keltett mezők
+
+![](membrane-field.png)
+
+![](multi-membrane-field.png)
+
+## Kétféle tipikus aktivitás
+  - Idegimpulzus (**akciós potenciál**):
+    - Monden vagy semmi
+    - "Digitális"
+    - Rövid időtartam (0.5-3 ms)
+    -Nem propagálódik távolra extracelluláris térben
+  - Küszöb alatti **membránpotenciál**:
+    - Időbeli és térbeli szummáció
+    - "Analóg" jel
+    - Hosszú időtartam: 10-100 ms
+    - Távolra vezetődnek az extracelluláris térben
+
+![](generators.png)
+
+## Két ökölszabály
+  - Két dolog befolyásolja a mért amplitúdót:
+    - Minél nagyobb a generált dipólok száma
+    - Minél inkább radiális a generált dipól iránya
+
+## Forward probléma
+  **phi = K(J)**
+  - phi: Mért potenciálkülönbség
+  - J: Áramsűrűség
+  - K: Transzformáció (fej alakja és vezetési tulajdonságai)
+## Inverz probléma
+  **J = K_inv(phi)**
+  - A neuronális generátorok meghatározása a skalp elektródákon mért
+  potenciálkülönbségek függvényeként.
+  - Nehézség: Végtelen lehetséges megoldása van az inverz problémának
+  - Kezdeti feltételekkel redukálható a megoldások halmaza (Neuronok száma,
+    típusa, elhelyezkedése) -> forrás modell
+  - A valósághoz legközelebb állót kell választani.
+  - Megoldás lehet (nem-)lineáris, vagy forrás modell független
+  - figyelembe kell venni az:
+    - Artifact-okat
+    - Zajt
+    - A vezető közeg változását
+## Lineáris inverz megoldás
+  - Alulhatározott (elosztott):
+    - Nincs szükség priori feltételezésekre
+    - Minden lehetséges forrást figyelembe vesz
+    - A mérések száma < 100, ismeretlenek száma ~1e4
+    - PL: Minimum norm: matematikailag a legkisebb L2-normájú megoldást keresi;
+Low-resolution Electromagnetic Tomography (LoReTa) matematikailag a súlyozott
+források második deriváltjának (Laplacian) minimumát keresi (heurisztika:
+szomszédos neuronok szinkron aktiválódnak és csak fokozatosan változik az orientációjuk)
+  - Túlhatározott (dipól):
+    - Feltételezi, hogy kis számú diszkrét forrás hozzá létre a jeleket
+    - nagy mértékben függ a dipólok számától
+    - PL: Brain Electrical Source Analysis (BESA): Több dipól forrás
+ megtalálásához bevezette az időtartomány elemzését is, egy meghatározott
+ indőintervallumban megkeresi a forrás dipólt, majd az egész adatra alkalmazza a
+ least square fit módszert, további forrás dipólokat ad hozzá a modellhez a
+ következő időintervallumokon amíg az aktivitásnak van olyan része, amit az
+ eddigi források nem magyaráztak meg (additív modell)
+## Nem-lineáris módszer:
+  - Egy vagy több forrás dipólt feltételez
+  - A forrás dipól modell különböző paraméterei (hely, irány, erősség rögzíthetők, vagy változtathatóak)
+
+## Inverz probléma egyéb megoldási módszerei
+  - Local Autoregressive Average (LAuRA)
+  - EPIFOCUS: fokális epilepsziás aktivitás elemézésre (domináns forrásokra jó)
+  - Sokváltozós statisztikai módszerek: PCA vagy ICA alkalmazása.
+  - Bayesian inference
+
+## Nagyságrendek
+  - fej mérete: 9.2 cm radius
+  - Scalp: 2.3 Ohm m
+  - Skull: 150 Ohm m
+  - Brain: 5.8 Ohm m
+
+![](brain-sphere.png)
+
 17. ERP forrás-analízis jelentősége
 # 18. „Steady state” válasz, klinikai alkalmazása
 ## Steady State Response (SSR):
