@@ -1,3 +1,27 @@
+# Vizsgatételsor 2017.
+1. Bioelektromos jelek osztályozása, vizsgálómódszerek
+2. A biopotenciál elvezető elektródok jellemző tulajdonságai (impedancia, frekvencia átvitel)
+3. Fém elektródok jellemzői, az elektród potenciál fogalma és jelentősége
+4. A sejtaktivitás befolyásolása iontoforézissel
+5. A membránpotenciál létrejöttéért felelős folyamatok
+6. Az akciós potenciál létrejöttéért felelős folyamatok
+7. Az intracelluláris elvezetési módszerek
+8. Extracelluláris mikroelektród elvezetés, sejtazonosítás
+9. A biológiai előerősítők jellemző tulajdonságai
+10. Stereotaxiás módszer
+11. Az EEG elvezetés technikája
+12. EEG elvezetésnél jelentkező zavarok
+13. Az EEG jellemző összetevői, kóros EEG jelek
+14. Eseményhez-kötött potenciálok (exogén, endogén komponensek)
+15. EEG-ERP számítógépes analízisének főbb módszerei
+16. EEG genezis, bioelektromos mezők típusai
+17. ERP forrás-analízis jelentősége
+18. „Steady state” válasz, klinikai alkalmazása
+19. Magnetoenkefalográfia
+20. Elektromiográfia
+21. EKG elvezetések típusai, az EKG görbe jellemzői
+22. Az EKG kóros eltérései
+
 # 1. Bioelektromos jelek osztályozása, vizsgálómódszerek
 ## Osztályozás
 ### Nagyságrend szerint:
