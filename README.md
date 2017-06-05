@@ -83,6 +83,19 @@ mérő elektródok - biológiai rendszer
   ***Ideális elektród nincs***
   - Intracelluláris mikroelvezetés:
     - üvegkapilláris mikroelektród (patch-clamp elektród)
+      - Kis elektróda ellenállás
+      - Nagy szigetelési ellenállás (5 GOhm)
+      - hegy < 1 um
+    - Sharp microelectrode
+      - Nagy elektróda ellenállás
+      - Szivárgó áram, kis szigetelő ellenállás (50-100 MOhm)
+      - hegy (0.06-0.3 um) << 1 um
+    - - Technikailag bonyolultabb
+    - + Nagy  jel amplitúdója (1-100 mV)
+    - - Kevés csatornán (1-4) lehet elvezetni
+    - - Szabadon mozgó állatokban nem használható
+    - + Sejten belüli folyamatot közvetlenül méri
+
   - Extracelluláris mikroelvezetés:
     - üvegkapilláris mikroelektród
     - hegyezett fém elektród, lakk szigetelés
@@ -91,6 +104,12 @@ mérő elektródok - biológiai rendszer
     - szigetelt vékony fémhuzal (fine wire electrode)
     - tetród
     - multielektród
+    - + Technikailag egyszerűbb
+    - - Alacsony jel amplitdúdó (10-500 uV)
+    - - Kis elektromos zajú erősítők kellenek
+    - + Sok csatornán (10-200) lehet elvezetni
+    - + Szabadon mozgó állatokban is használható
+    - - Sejten belüli folyamatokat közvetlenül nem méri
   - Lokális mezőpotenciál elvezetés (LocalFieldPotential - LFP):
     - Fentiek bármelyike
   - Makropotenciál elvezetés:
@@ -115,6 +134,8 @@ mérő elektródok - biológiai rendszer
   2. Elektród potenciál
   3. Elektród stabilitás, biokompatibilitás
 
+  ***NEMZETKÖZI EEG SZABVÁNY*** Az elektród ellenállása kevesebb legyen mint 5 kOhm
+
   Nagyságrendi adatok:
   - **Ellenállás**
     - Réz: 1.7 uOhm cm
@@ -129,6 +150,9 @@ mérő elektródok - biológiai rendszer
     - C-memberán: 1 uF/cm^2
     - C-20 um átmérőjű neuron: ~50 pF
     - R-intracelluláris térben: 50-200 Ohm cm
+  - **Mikroelektród**
+    - SHARP - Alacsony szigetelési ellenállás (50-100 MOhm) - szivárgási áram
+    - Patch-Clamp (negatív nyomás után) - Nagy szigetelési ellenállás (50 GOhm)
 
 ## Elektród impedancia helyettesítő áramköre
 *Elektród bemenő impedanciája méretétől és anyagától függ*
@@ -139,16 +163,242 @@ mérő elektródok - biológiai rendszer
 
 ![](bipolar-helyett.png)
 
+A két mérőelektród tulajdonságai lehetőleg azonosak legyenek!
+
+## Mikroelektród elvezetés helyettesítő áramköre
+
+![](mikro-helyett.png)
+
+## Elektrokémiai feszültségsor
+
+***Fém-folyadék-fém kapcsolat esetén az elektrokémiai feszültségsornak megfelelő galvánelem képződik.***
+  - Elektrokémiai feszültségsor: Fémelektróda és fémsó oldat közötti feszültség egy különleges elrendezésben mérhető. E célre úgynevezett hidrogénelektródát használnak, ehhez rendelik a 0 V vonatkoztatási potenciált.
+  A táblázatban a fémek szabványosan mért feszültségértékei láthatóak.
+  Az elektrokémiai feszültségsor segítségével különböző elektróda-anyag kombinációk várható feszültsége határozható meg.
+  **Azokat a fémeket, amelyek a hidrogénhez képest pozitív feszültségűek, nemesfémeknek, míg a többieket nem-nemes (másnéven közönséges) fémeknek nevezzük.**
+  Két fém összehasonlításakor a feszültségsorban nagyobb értékkel rendelkező fémet a másiknál "nemesebbnek" hívjuk.
+  - PL: nemes - Arany, közönséges-Magnézium
+
+![](hydrogen-electrode.png)
+
+## Rozsda keletkezése, elektród stabilitása
+
+![](hydrogen-electrode.png)
+
+## Multi-sensor
+
+  - Electro-Cap: Allows skin preparation, application in 30 min, Used with most EEG amplifiers.
+  - Geodesic Sensor Net: Does not allow skin preparation, application in 5 min, High input-impedance amplifiers, No infection risk
+
+![](michigan-probe.png)
+
+![](utah-probe.png)
+
+## IONTOFORÉZIS
+
+![](ionto.png)
+
+#3. Fém elektródok jellemzői, az elektród potenciál fogalma és jelentősége
+***Ideális elektród nincs***
+- Intracelluláris mikroelvezetés:
+  - üvegkapilláris mikroelektród (patch-clamp elektród)
+  - ***Sharp*** microelectrode
+    - Nagy elektróda ellenállás
+    - Szivárgó áram, kis szigetelő ellenállás (50-100 MOhm)
+    - hegy (0.06-0.3 um) << 1 um
+    - Current clamp elvezetés
+    - Alig befolyásolja a citoplazmát
+    - Sejtszintű áramok vizsgálatára alkalmas (neuronpopuláció aktivitásának függvényében)
+  - Elrendezés: Extracell referencia - Intracell aktív
+  - **Előnyök-Hátrányok**:
+    - - Technikailag bonyolultabb
+    - + Nagy  jel amplitúdója (1-100 mV)
+    - - Kevés csatornán (1-4) lehet elvezetni
+    - - Szabadon mozgó állatokban nem használható
+    - + Sejten belüli folyamatot közvetlenül méri
 
 
-3. Fém elektródok jellemzői, az elektród potenciál fogalma és jelentősége
+- Extracelluláris mikroelvezetés:
+  - üvegkapilláris mikroelektród
+  - hegyezett fém elektród, lakk szigetelés
+  - hegyezett fém elektród, üveg szigetelés
+  - szénszál, üveg kapilláris szigetelés
+  - szigetelt vékony fémhuzal (fine wire electrode)
+  - tetród
+  - multielektród
+  - **Előnyök-Hátrányok**:
+    - + Technikailag egyszerűbb
+    - - Alacsony jel amplitdúdó (10-500 uV)
+    - - Kis elektromos zajú erősítők kellenek
+    - + Sok csatornán (10-200) lehet elvezetni
+    - + Szabadon mozgó állatokban is használható
+    - - Sejten belüli folyamatokat közvetlenül nem méri
+
+## Elektród típusok (Agyi bioelektromos jelekhez)
+  ***Ideális elektród nincs***
+  - Intracelluláris mikroelvezetés:
+    - üvegkapilláris mikroelektród (patch-clamp elektród)
+      - Kis elektróda ellenállás
+      - Nagy szigetelési ellenállás (5 GOhm)
+      - hegy < 1 um
+    - Sharp microelectrode
+      - Nagy elektróda ellenállás
+      - Szivárgó áram, kis szigetelő ellenállás (50-100 MOhm)
+      - hegy (0.06-0.3 um) << 1 um
+    - - Technikailag bonyolultabb
+    - + Nagy  jel amplitúdója (1-100 mV)
+    - - Kevés csatornán (1-4) lehet elvezetni
+    - - Szabadon mozgó állatokban nem használható
+    - + Sejten belüli folyamatot közvetlenül méri
+
+  - Extracelluláris mikroelvezetés:
+    - üvegkapilláris mikroelektród
+    - hegyezett fém elektród, lakk szigetelés
+    - hegyezett fém elektród, üveg szigetelés
+    - szénszál, üveg kapilláris szigetelés
+    - szigetelt vékony fémhuzal (fine wire electrode)
+    - tetród
+    - multielektród
+    - + Technikailag egyszerűbb
+    - - Alacsony jel amplitdúdó (10-500 uV)
+    - - Kis elektromos zajú erősítők kellenek
+    - + Sok csatornán (10-200) lehet elvezetni
+    - + Szabadon mozgó állatokban is használható
+    - - Sejten belüli folyamatokat közvetlenül nem méri
+  - Lokális mezőpotenciál elvezetés (LocalFieldPotential - LFP):
+    - Fentiek bármelyike
+  - Makropotenciál elvezetés:
+    - Felszíni elvezetés:
+      - fém korong elektród
+      - Ag/AgCl elektród
+    - Intracerebelláris/muszkuláris:
+      - szigetelt fémhuzal elektród
+      - multielektród
+      - tű elektród
+
+## Tartományok
+  - Scalp - 2-10mm - 10-200 uV
+  - Epidural - 1-3mm - 0.1-4 mV
+  - Surface (Brain) - 1-3 mm - 0.2-5 mV
+  - Extracellular - 1-50 um - 0.4-20 mV
+  - Intracellular - 0.5-3 um - 1-100 mV
+![](electrode-types.png)
+
+## Elektródok általános tulajdonságai
+  1. Elektród impedancia
+  2. Elektród potenciál
+  3. Elektród stabilitás, biokompatibilitás
+
+  ***NEMZETKÖZI EEG SZABVÁNY*** Az elektród ellenállása kevesebb legyen mint 5 kOhm
+
+  Nagyságrendi adatok:
+  - **Ellenállás**
+    - Réz: 1.7 uOhm cm
+    - [3M] KCl: 5 Ohm cm
+    - Tengervíz: 22 Ohm cm
+    - Fiziológiás oldat: 70 Ohm cm
+    - Csapvíz: 0.2-10 Ohm cm
+    - Desztillált víz: 1-5 MOhm cm
+  - **Neuron**
+    - R-membrán: 10-100 kOhm cm^2
+    - R-20 um átmérőjű neuron: ~200 MOhm
+    - C-memberán: 1 uF/cm^2
+    - C-20 um átmérőjű neuron: ~50 pF
+    - R-intracelluláris térben: 50-200 Ohm cm
+  - **Mikroelektród**
+    - SHARP - Alacsony szigetelési ellenállás (50-100 MOhm) - szivárgási áram
+    - Patch-Clamp (negatív nyomás után) - Nagy szigetelési ellenállás (50 GOhm)
+
+## Elektród impedancia helyettesítő áramköre
+*Elektród bemenő impedanciája méretétől és anyagától függ*
+
+![](electrode-imp.png)
+
+## Bipoláris elvezetés helyettesítő áramköre
+
+![](bipolar-helyett.png)
+
+A két mérőelektród tulajdonságai lehetőleg azonosak legyenek!
+
+## Mikroelektród elvezetés helyettesítő áramköre
+
+![](mikro-helyett.png)
+
+## Elektrokémiai feszültségsor
+
+***Fém-folyadék-fém kapcsolat esetén az elektrokémiai feszültségsornak megfelelő galvánelem képződik.***
+  - Elektrokémiai feszültségsor: Fémelektróda és fémsó oldat közötti feszültség egy különleges elrendezésben mérhető. E célre úgynevezett hidrogénelektródát használnak, ehhez rendelik a 0 V vonatkoztatási potenciált.
+  A táblázatban a fémek szabványosan mért feszültségértékei láthatóak.
+  Az elektrokémiai feszültségsor segítségével különböző elektróda-anyag kombinációk várható feszültsége határozható meg.
+  **Azokat a fémeket, amelyek a hidrogénhez képest pozitív feszültségűek, nemesfémeknek, míg a többieket nem-nemes (másnéven közönséges) fémeknek nevezzük.**
+  Két fém összehasonlításakor a feszültségsorban nagyobb értékkel rendelkező fémet a másiknál "nemesebbnek" hívjuk.
+  - PL: nemes - Arany, közönséges-Magnézium
+
+![](hydrogen-electrode.png)
+
+## Rozsda keletkezése, elektród stabilitása
+
+![](hydrogen-electrode.png)
+
+
 4. A sejtaktivitás befolyásolása iontoforézissel
 5. A membránpotenciál létrejöttéért felelős folyamatok
 6. Az akciós potenciál létrejöttéért felelős folyamatok
 7. Az intracelluláris elvezetési módszerek
+
+- Intracelluláris mikroelvezetés:
+  - üvegkapilláris mikroelektród (***patch-clamp*** elektród)
+    - Kis elektróda ellenállás
+    - Nagy szigetelési ellenállás (5 GOhm)
+    - hegy < 1 um
+  - ***Sharp*** microelectrode
+    - Nagy elektróda ellenállás
+    - Szivárgó áram, kis szigetelő ellenállás (50-100 MOhm)
+    - hegy (0.06-0.3 um) << 1 um
+    - Current clamp elvezetés
+    - Alig befolyásolja a citoplazmát
+    - Sejtszintű áramok vizsgálatára alkalmas (neuronpopuláció aktivitásának függvényében)
+  - Elrendezés: Extracell referencia - Intracell aktív
+  - **Előnyök-Hátrányok**:
+    - - Technikailag bonyolultabb
+    - + Nagy  jel amplitúdója (1-100 mV)
+    - - Kevés csatornán (1-4) lehet elvezetni
+    - - Szabadon mozgó állatokban nem használható
+    - + Sejten belüli folyamatot közvetlenül méri
+
+
+- Extracelluláris mikroelvezetés:
+  - **Előnyök-Hátrányok**:
+    - + Technikailag egyszerűbb
+    - - Alacsony jel amplitdúdó (10-500 uV)
+    - - Kis elektromos zajú erősítők kellenek
+    - + Sok csatornán (10-200) lehet elvezetni
+    - + Szabadon mozgó állatokban is használható
+    - - Sejten belüli folyamatokat közvetlenül nem méri
+
 8. Extracelluláris mikroelektród elvezetés, sejtazonosítás
 9. A biológiai előerősítők jellemző tulajdonságai
-10. Stereotaxiás módszer
+# 10. Stereotaxiás módszer
+
+## Wikipedia
+*Stereotactic surgery or stereotaxy is a minimally invasive form of surgical intervention which makes use of a three-dimensional coordinate system to locate small targets inside the body and to perform on them some action such as ablation, biopsy, lesion, injection, stimulation, implantation, radiosurgery (SRS), etc.
+
+In theory, any organ system inside the body can be subjected to stereotactic surgery. However, difficulties in setting up a reliable frame of reference (such as bone landmarks which bear a constant spatial relation to soft tissues) mean that its applications have been, traditionally and until recently, limited to brain surgery. Besides the brain, biopsy and surgery of the breast are done routinely to locate, sample (biopsy) and remove tissue. Plain X-ray images (radiographic mammography), computed tomography, and magnetic resonance imaging can be used to guide the procedure.*
+
+  - KOPF model 1404:
+    - Electrode holder
+    - Electrode manipulator
+    - Eye bar
+    - Ear bar
+    - Stereotaxic frame
+
+![](stereotaxic-monkey.png)
+
+  - KOPF model 902:
+    - 1404 + Nose and tooth bar assembly
+
+![](stereotaxic-small.png)
+
 # 11. Az EEG elvezetés technikája
 
 ![](eeg-elvezetes.png)
