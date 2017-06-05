@@ -46,12 +46,12 @@
   - Határon: Local Field Potential (LFP)
 
 ### Mérés helye szerint
-  - --agy-- Kortiko-, Enkefalo-
-  - --szív-- Cardiac-
-  - --egyéb izom-- Myo-
+  - **agy** Kortiko-, Enkefalo-
+  - **szív** Cardiac-
+  - **egyéb izom** Myo-
 
 ## Vizsgálómódszerek
-  - --ElektroOkulokGram-- (EOG):
+  - **ElektroOkulokGram** (EOG):
 
 
 A szem elektromosan töltött gömb, pozitív pólusa elöl, negatív hátul van.
@@ -59,7 +59,7 @@ Szemmozgáskor ez az elektromos dipól iránya változik, a szem köré helyezet
 elektródokkal potenciálváltozásként elvezethető.
 
 ![aa](eye.png)
-  - --Pszichofiziológia--:
+  - **Pszichofiziológia**:
 
   Pszichológiai folyamatokhoz társuló elektrofiziológiai változókat vizsgálja.
 
