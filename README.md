@@ -207,7 +207,7 @@ A két mérőelektród tulajdonságai lehetőleg azonosak legyenek!
 
 ## Rozsda keletkezése, elektród stabilitása
 
-![](img/hydrogen-electrode.png)
+![](img/rozsda.png)
 
 ## Multi-sensor
 
