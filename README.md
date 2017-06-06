@@ -58,7 +58,7 @@ A szem elektromosan töltött gömb, pozitív pólusa elöl, negatív hátul van
 Szemmozgáskor ez az elektromos dipól iránya változik, a szem köré helyezett
 elektródokkal potenciálváltozásként elvezethető.
 
-![aa](eye.png)
+![aa](img/eye.png)
   - **Pszichofiziológia**:
 
   Pszichológiai folyamatokhoz társuló elektrofiziológiai változókat vizsgálja.
@@ -96,7 +96,7 @@ mérő elektródok - biológiai rendszer
 
 **Mindig két elektród közötti potenciál-különbséget mérünk**
 
-![](eeg-elvezetes.png)
+![](img/eeg-elvezetes.png)
   - MINDIG 1 FÖLD
   - Monopoláris: 1 indifferens (referens), a többi aktív (csak egy elektród van aktív szövetben/-en a másik, indifferens/0 potenciálú helyen van)
   - Bipoláris: Ami az egyiknek referens a másiknak aktív (mindkét elektród aktív felületen van, vagy a szövetben helyezkedik el)
@@ -151,7 +151,7 @@ mérő elektródok - biológiai rendszer
   - Surface (Brain) - 1-3 mm - 0.2-5 mV
   - Extracellular - 1-50 um - 0.4-20 mV
   - Intracellular - 0.5-3 um - 1-100 mV
-![](electrode-types.png)
+![](img/electrode-types.png)
 
 ## Elektródok általános tulajdonságai
   1. Elektród impedancia
@@ -181,17 +181,17 @@ mérő elektródok - biológiai rendszer
 ## Elektród impedancia helyettesítő áramköre
 *Elektród bemenő impedanciája méretétől és anyagától függ*
 
-![](electrode-imp.png)
+![](img/electrode-imp.png)
 
 ## Bipoláris elvezetés helyettesítő áramköre
 
-![](bipolar-helyett.png)
+![](img/bipolar-helyett.png)
 
 A két mérőelektród tulajdonságai lehetőleg azonosak legyenek!
 
 ## Mikroelektród elvezetés helyettesítő áramköre
 
-![](mikro-helyett.png)
+![](img/mikro-helyett.png)
 
 ## Elektrokémiai feszültségsor
 
@@ -203,20 +203,20 @@ A két mérőelektród tulajdonságai lehetőleg azonosak legyenek!
   Két fém összehasonlításakor a feszültségsorban nagyobb értékkel rendelkező fémet a másiknál "nemesebbnek" hívjuk.
   - PL: nemes - Arany, közönséges-Magnézium
 
-![](hydrogen-electrode.png)
+![](img/hydrogen-electrode.png)
 
 ## Rozsda keletkezése, elektród stabilitása
 
-![](hydrogen-electrode.png)
+![](img/hydrogen-electrode.png)
 
 ## Multi-sensor
 
   - Electro-Cap: Allows skin preparation, application in 30 min, Used with most EEG amplifiers.
   - Geodesic Sensor Net: Does not allow skin preparation, application in 5 min, High input-impedance amplifiers, No infection risk
 
-![](michigan-probe.png)
+![](img/michigan-probe.png)
 
-![](utah-probe.png)
+![](img/utah-probe.png)
   - 1992-ben publikálták
   - 96 elektród
   - Platinca vagy iridium-oxid elvezetési pontok
@@ -225,7 +225,7 @@ A két mérőelektród tulajdonságai lehetőleg azonosak legyenek!
 
 ## IONTOFORÉZIS
 
-![](ionto.png)
+![](img/ionto.png)
 
 #3. Fém elektródok jellemzői, az elektród potenciál fogalma és jelentősége
 ***Ideális elektród nincs***
@@ -311,7 +311,7 @@ A két mérőelektród tulajdonságai lehetőleg azonosak legyenek!
   - Surface (Brain) - 1-3 mm - 0.2-5 mV
   - Extracellular - 1-50 um - 0.4-20 mV
   - Intracellular - 0.5-3 um - 1-100 mV
-![](electrode-types.png)
+![](img/electrode-types.png)
 
 ## Elektródok általános tulajdonságai
   1. Elektród impedancia
@@ -341,17 +341,17 @@ A két mérőelektród tulajdonságai lehetőleg azonosak legyenek!
 ## Elektród impedancia helyettesítő áramköre
 *Elektród bemenő impedanciája méretétől és anyagától függ*
 
-![](electrode-imp.png)
+![](img/electrode-imp.png)
 
 ## Bipoláris elvezetés helyettesítő áramköre
 
-![](bipolar-helyett.png)
+![](img/bipolar-helyett.png)
 
 A két mérőelektród tulajdonságai lehetőleg azonosak legyenek!
 
 ## Mikroelektród elvezetés helyettesítő áramköre
 
-![](mikro-helyett.png)
+![](img/mikro-helyett.png)
 
 ## Elektrokémiai feszültségsor
 
@@ -363,11 +363,11 @@ A két mérőelektród tulajdonságai lehetőleg azonosak legyenek!
   Két fém összehasonlításakor a feszültségsorban nagyobb értékkel rendelkező fémet a másiknál "nemesebbnek" hívjuk.
   - PL: nemes - Arany, közönséges-Magnézium
 
-![](hydrogen-electrode.png)
+![](img/hydrogen-electrode.png)
 
 ## Rozsda keletkezése, elektród stabilitása
 
-![](hydrogen-electrode.png)
+![](img/hydrogen-electrode.png)
 
 
 4. A sejtaktivitás befolyásolása iontoforézissel
@@ -410,25 +410,25 @@ A két mérőelektród tulajdonságai lehetőleg azonosak legyenek!
   - Mérhetjük az akcióspotenciál (AP) küszöböt (V_threshold)
   - Ingerelhetjük, gátolhatjuk a sejtet
 
-![](current-clamp.png)
+![](img/current-clamp.png)
 
-![](current-clamp-practice.png)
+![](img/current-clamp-practice.png)
 
 ## Kompenzált hatások:
-![](compensed-curr-clamp.png)
+![](img/compensed-curr-clamp.png)
 
-![](RC-summary.png)
+![](img/RC-summary.png)
 
 ## Voltage-clamp
   - Mérhetjük a membránon átfolyó áramot (a membrán kapacitásától függetlenül)
   - Csak az ioncsatornákon folyó áram a mért változó
   - Ioncsatornák feszültségfüggése megállapítható
 
-  ![](voltage-clamp.png)
+  ![](img/voltage-clamp.png)
 
 ## Töltés kisütés görbe
 
-![](RC.png)
+![](img/RC.png)
 
 
 # 8. Extracelluláris mikroelektród elvezetés, sejtazonosítás
@@ -438,12 +438,12 @@ A két mérőelektród tulajdonságai lehetőleg azonosak legyenek!
   - Sok a sejt - kicsi a jel (az extracelluláris tér jó vezető -> áramok szétfolynak)
 
 ## Nagyságrendi adatok (~)
-![](tetrode-nagysagrend.png)
+![](img/tetrode-nagysagrend.png)
   - 50 um a vizsgált henger (gyakorlatban kúp), 140 sejt, 60 uV
   - 140 um a henger, 1100 sejt kb, ? V
 
 ## Szűrés a sok elvezetésből
-![](ap-filter.png)
+![](img/ap-filter.png)
   - Sávszűrő: 300-3000 Hz
 
 ## Tulajdonságok és különbségek
@@ -472,7 +472,7 @@ A két mérőelektród tulajdonságai lehetőleg azonosak legyenek!
       - - Sejten belüli folyamatokat közvetlenül nem méri
 
 ## Interface Chamber
-![](interface-chamber.png)
+![](img/interface-chamber.png)
   - + Jobb oxigenáltság
   - - Sejtek követése vakon (random)
   - + Sejtek a szelet teljes vastagságában
@@ -481,7 +481,7 @@ A két mérőelektród tulajdonságai lehetőleg azonosak legyenek!
 
 
 ## Submerged Chamber
-![](submerged-camera.png)
+![](img/submerged-camera.png)
   - - Rosszabb oxigenáltság (javítható)
   - + Sejtek keresése célzottan - nem véletlenszerű
   - - Sejtek csak a szelet felszínén
@@ -523,31 +523,31 @@ In theory, any organ system inside the body can be subjected to stereotactic sur
     - Ear bar
     - Stereotaxic frame
 
-![](stereotaxic-monkey.png)
+![](img/stereotaxic-monkey.png)
 
   - KOPF model 902:
     - 1404 + Nose and tooth bar assembly
 
-![](stereotaxic-small.png)
+![](img/stereotaxic-small.png)
 
 # 11. Az EEG elvezetés technikája
 
-![](eeg-elvezetes.png)
+![](img/eeg-elvezetes.png)
 
-![](paperless-eeg.png)
+![](img/paperless-eeg.png)
 
-![](diff-amp.png)
+![](img/diff-amp.png)
 
 ## Az EEG elektródok elnevezése
 
-![](eeg-elnevez.png)
+![](img/eeg-elnevez.png)
 ## Ag/AgCl ragasztós elektródok
 
-![](agcl.png)
+![](img/agcl.png)
 ## Elvezetés típusai
 Elvezetések felhelyezésének módja: -montázs-
 
-![](eeg-elvezetes.png)
+![](img/eeg-elvezetes.png)
   - MINDIG 1 FÖLD
   - Monopoláris: 1 indifferens (referens), a többi aktív (csak egy elektród van aktív szövetben/-en a másik, indifferens/0 potenciálú helyen van)
   - Bipoláris: Ami az egyiknek referens a másiknak aktív (mindkét elektród aktív felületen van, vagy a szövetben helyezkedik el)
@@ -605,16 +605,16 @@ Elvezetések felhelyezésének módja: -montázs-
     - Aliasing
   - Multiplexing Artifacts
 
-![](foldhurok.png)
+![](img/foldhurok.png)
 
 # 13. Az EEG jellemző összetevői, kóros EEG jelek
 ## Spontán EEG összetevői:
 
-![](eeg-frek.png)
+![](img/eeg-frek.png)
 
-![](normal-nyugalom-eeg.png)
+![](img/normal-nyugalom-eeg.png)
 
-![](desync.png)
+![](img/desync.png)
 
 ## Éberség függő jelek:
   - Awake: low voltage-random, fast
@@ -624,7 +624,7 @@ Elvezetések felhelyezésének módja: -montázs-
   - Deep sleep: 0.5-2 Hz delta waves (> 75 uV)
   - REM sleep: low voltage-random, fast sawtooth (fűrész) waves, Ponto-Geniculo-Occular waves (PGO)
 ## Kóros EEG jelek:
-![](grafoelemek.png)
+![](img/grafoelemek.png)
   1 Focal seizures (fokális/részleges roham):
     - Simple Partial seizures (tudatánál van)
       - motor signs
@@ -635,7 +635,7 @@ Elvezetések felhelyezésének módja: -montázs-
       - partial onset, followed by impairment of consciousness
       - IoC on the beginning
     - Partial seizures evolving to complex partial -> generalized seizures
-    ![](epi2.png)
+    ![](img/epi2.png)
   2 Generalized seizures:
     - Absence seizures (petit mal) - 3Hz tüske hullám
     - Myoclonic
@@ -644,11 +644,11 @@ Elvezetések felhelyezésének módja: -montázs-
     - Tonic-Clonic (grand mal)
     - Atonic (akinetic)
 
-![](epi1.png)
+![](img/epi1.png)
 
-![](epi3.png)
+![](img/epi3.png)
 
-![](epi4.png)
+![](img/epi4.png)
 
 ### Aktivációs módszerek
   - Visual Stimulation
@@ -728,7 +728,7 @@ A vizsgálni kívánt EKP amplitúdója rendszerint jóval kisebb mint a hátté
 - jel(t) = EEG(t) + EKP(t)
 - cov(EEG(t), EKP(t)) = 0  - *függetlenek*
 
-![](averaging-ERP.png)
+![](img/averaging-ERP.png)
 
 Javítás átlagolással, függvény:
 *SNR (N átlaggal)-> 2*SNR (4N átlaggal)*
@@ -760,22 +760,22 @@ komponense nagyobb. A „szelektív figyelem” eredményképpen a „figyelt be
     - Eredmény: ha S1 és S2 között több idő telik el, a korai és késői CNV szétválik
   - Motors Potenciál (MP) (10 uV) CNV-vel egybefűződik: Felkészülési (Bereitschhaft-) potenciál - akaratlagos mozgás előtt jelentkezik
 
-![](N400.png)
+![](img/N400.png)
 
-![](N400-pizza.png)
+![](img/N400-pizza.png)
 
 ## Brain Mapping:
 
-![](brain_mapping.png)
+![](img/brain_mapping.png)
 
 15. EEG-ERP számítógépes analízisének főbb módszerei
 # 16. EEG genezis, bioelektromos mezők típusai
 
 ## Membránok által keltett mezők
 
-![](membrane-field.png)
+![](img/membrane-field.png)
 
-![](multi-membrane-field.png)
+![](img/multi-membrane-field.png)
 
 ## Kétféle tipikus aktivitás
   - Idegimpulzus (**akciós potenciál**):
@@ -789,7 +789,7 @@ komponense nagyobb. A „szelektív figyelem” eredményképpen a „figyelt be
     - Hosszú időtartam: 10-100 ms
     - Távolra vezetődnek az extracelluláris térben
 
-![](generators.png)
+![](img/generators.png)
 
 ## Két ökölszabály
   - Két dolog befolyásolja a mért amplitúdót:
@@ -848,7 +848,7 @@ szomszédos neuronok szinkron aktiválódnak és csak fokozatosan változik az o
   - Skull: 150 Ohm m
   - Brain: 5.8 Ohm m
 
-![](brain-sphere.png)
+![](img/brain-sphere.png)
 
 17. ERP forrás-analízis jelentősége
 # 18. „Steady state” válasz, klinikai alkalmazása
@@ -870,13 +870,33 @@ Acoustic Steady State Response (ASSR)
   - Sasha John
 
 ## Hanggal kiváltott ASSR (0.2 uV)
-![](assr-am.png)
+![](img/assr-am.png)
 
 ## Több inger egyszerre (BRAIN alatt ASSR frekvenciatartomány van)
-![](assr-am-multi.png)
+![](img/assr-am-multi.png)
   - Eszköz a mérésre: MASTER és Aurix
 
-19. Magnetoenkefalográfia
+# 19. Magnetoenkefalográfia
+
+mágneses jelek:
+  - Föld ~1e-4 Tesla
+  - Városi zaj uT
+  - Autó (50 m) nT
+  - Részecskék a tüdőben nT
+  - Csavarhúzó (5 m) e-10 - e-11T
+  - Emberi szív e-11T
+  - Harántcsíkolt izom, magzati szív e-12T
+  - Emberi szem (állandó) e-12T
+  - CMOS IC (2 m) pT
+  - Emberi agy (Alfa hullámok tere) e-14T
+  - Agyi kiváltott válasz e-15
+  - Squid zaj fT
+
+## magnetometer
+  A Superconducting Quantum Interference Device (SQUID) egy -269 C° -ra hűtött szupravezető tekercs, amivel a gyenge mágneses térerő is mérhető (Josephson hatás). Ezt a jelet egy külső tekerccsel (feedback) keletkezett áram kioltja, melynek amplitúdójából következtethetünk az érzékelő fluxus változására. (Több feedback hurok -> gradiometer)
+
+![](img/magnetometer.png)
+
 # 20. Elektromiográfia
 
   - **Elektromiográfia**: Harántcsíkolt izmok biolelektromos tevékenységének vizsgálata (izomrostok akciós potenciáljai hozzák létre).
@@ -907,7 +927,7 @@ Acoustic Steady State Response (ASSR)
   - működő motoros egységek számának növelése (recruitment)
   - aszinkron módon működnek
 
-![](klinikai-emg.png)
+![](img/klinikai-emg.png)
 
 ## Motoros egység potenciál jellemzői
 
@@ -916,23 +936,55 @@ Acoustic Steady State Response (ASSR)
   - Amplitúdó: 200 uV - 2 mV
   - fázis: 4-szer metszi az alapvonalat
   - irányváltás: 5x
-![](motor-unit-pot.png)
+![](img/motor-unit-pot.png)
 
 ## Potenciál szuperpozíció eredmény:
 
-![](emg-superposition.png)
+![](img/emg-superposition.png)
 
 ## Klinikai Vizsgálat:
   1. Az izom elektromos aktivitása ellazult izomnál
-  2. A motoros egység potenciálok jellemzőinek elemzése enyhe izomkontrakciónál
-  3. Az izom elektromos tevékenységének regisztrálása maximális erőkifejtésnél
+  2. A motoros egység potenciálok jellemzőinek elemzése enyhe izomkontrakciónál (recruitment jellemző) - kopogó hang
+  3. Az izom elektromos tevékenységének regisztrálása maximális erőkifejtésnél (frekvencia növekvés és interferencia jellemző) - fehér zaj szerű hang
 
   - Általában 10-20 motor unit-ot kell összegyűjteni
   - **Maximális akaratlagos kontrakciónál** az egységpotenciálok olyan mértékben felszaporodnak, hogy nem különíthetők el egymástól: interfeneciamintát okoznak
 
+## EMG articats
+  - ECG
+  - Kábel mozog
+  - Hálózati zaj
 
+## Felszíni EMG alkalmazási területei
+  - Munkaélettan
+  - Sportélettan
+  - Mozgás és járáselemzés
+  - Rehabilitáció
+  - Biofeedback
+  - Protézis kontroll
 
+## Pathologic EMG
+  - Myopathic
+    - Muscle dystrophy: gene mutation
+    - Polymyositis: inflammatory
+    - Myotonia congenita: gene mutation - elongated contraction
+  - Neuropathic
+    - ALS - cégstádiuma a "locked in syndrome"
+    - Poliomyelitis: Poliovírus okozza
+    - Mechanic injury
+    - Plexopathia-radiculopathia: gerincoszlop károsodása
+    - Polyneuropathia: oka diabetes / alkoholizmus stb.
+  - Neuromuscular junction
+    - Myasthenia gravis: autoimmun, ACh blokkolása
 
+## Motoros ideg vezetési sebességének mérése emberen - ElektroNeuroGráfia (ENG)
+Több részből tevődik össze
+  1. Ideg Vezetési idő (ezt akarjuk megtudni)
+  2. Terminális vezetési idő, szinapszis előtt az axon már velőhüvely nélküli, vezetése lassabb
+  3. A szinaptikus átvezetési idő, a neurotranszmitter felszabadulás ! a receptorhoz kötődés (~ 1 ms)
+  4. Az izom akciós potenciál kialakulása és a rángás létrejöttének ideje
+
+Mivel a velőshülvelyű motoros idegköteg vezetési sebességét kívánjuk meghatározni, két ingerlést kell alkalmaznunk. Könyöknél és a csuklónál történt ingerlésnél egyaránt meghatározzuk az izom rángás latenciaidejét, majd a különbségből számítjuk az idegvezetés idejét. (egészségesnél ~ 55,5 m/s)
 
 21. EKG elvezetések típusai, az EKG görbe jellemzői
 22. Az EKG kóros eltérései
