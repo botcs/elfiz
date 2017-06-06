@@ -877,6 +877,62 @@ Acoustic Steady State Response (ASSR)
   - Eszköz a mérésre: MASTER és Aurix
 
 19. Magnetoenkefalográfia
-20. Elektromiográfia
+# 20. Elektromiográfia
+
+  - **Elektromiográfia**: Harántcsíkolt izmok biolelektromos tevékenységének vizsgálata (izomrostok akciós potenciáljai hozzák létre).
+  - **Motoros egység**: Egy első szarvi motoneuron és az általa beidegzett izomrostok.
+  - **Nyugalmi állapotban**: nincs EMG tevékenység
+  - **Motoros egység potenciál**: egy motoros egység izomrostjainak összeadódó akciós potenciálja. Enyhe kontrakcióknál az egységpotenciálok izoláltan jelentkeznek.
+  - **Interferencia minta**: erős kontrakciónál sok motoros egység működik aszinkron módon a motoros egység potenciálok egymást átfedve jelentkeznek
+
+## Harántcsíkolt izom felépítése
+  1. típus: Vörös izomrostok nagy mennyiségű mioglobin, és sok mitochondrium. Lassú de nem fárad (70-125 Hz)
+  2. típus: Fehér izomrostok kevés mioglobin és mitochondrium de sok glikogén, gyors működés de hamar fárad (126-250 Hz)
+  - Nyugalmi potenciál: -90 mV
+  - Akciós potenciál időtartama: 4-6 ms
+  - Ca2+ késés: 5-20 ms
+  - Ingerület terjedés a motorneurontól: 60 m/s
+  - Ingerület (AP) terjedés (izom): 2-4 m/s
+  - Kontrakció időtartama: < 100 ms
+  - Refrakter stádium: < 10 ms
+  - **Henneman szabály**: Akaratlagos izommozgásnál a kisebb motoros egységek aktiválódnak előbb, a nagyobb motoros egységek fokozott erőkifejtésnél kapcsolódnak be a mozgásba.
+  - Egy motoros egység izomrostjai nagyjából egy időben aktiválódnak. Kis aszonkronitást okoz az egyes rostokat beidegző axonkollaterálisok eltérő hossza.
+  - Izomkontrakció típusai:
+    - Izometriás: kontrakció ereje nem elég a mozgás kiváltásához, csak az izom feszülése fokozódik, hossza nem változik
+    - Izotóniás: a megrövidülésnek nincs akadálya, változatlan feszülés közben alakul ki
+    - Auxotóniás: a kontrakció során feszülés növekedés után rövidülés is bekövetkezik
+
+## Akaratlagos mozgás, izomerő növelése
+  - működési frekcenciája 5->60 Hz
+  - működő motoros egységek számának növelése (recruitment)
+  - aszinkron módon működnek
+
+![](klinikai-emg.png)
+
+## Motoros egység potenciál jellemzői
+
+  - Három szakasz: pozitív negatív pozitív
+  - Időtartam: 4-14 ms
+  - Amplitúdó: 200 uV - 2 mV
+  - fázis: 4-szer metszi az alapvonalat
+  - irányváltás: 5x
+![](motor-unit-pot.png)
+
+## Potenciál szuperpozíció eredmény:
+
+![](emg-superposition.png)
+
+## Klinikai Vizsgálat:
+  1. Az izom elektromos aktivitása ellazult izomnál
+  2. A motoros egység potenciálok jellemzőinek elemzése enyhe izomkontrakciónál
+  3. Az izom elektromos tevékenységének regisztrálása maximális erőkifejtésnél
+
+  - Általában 10-20 motor unit-ot kell összegyűjteni
+  - **Maximális akaratlagos kontrakciónál** az egységpotenciálok olyan mértékben felszaporodnak, hogy nem különíthetők el egymástól: interfeneciamintát okoznak
+
+
+
+
+
 21. EKG elvezetések típusai, az EKG görbe jellemzői
 22. Az EKG kóros eltérései
