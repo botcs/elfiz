@@ -455,7 +455,7 @@ A két mérőelektród tulajdonságai lehetőleg azonosak legyenek!
       - - Szabadon mozgó állatokban nem használható
       - + Sejten belüli folyamatot közvetlenül méri
   - Extracelluláris mikroelvezetés:
-    - Elrendezés: Extracell referencia - Intracell aktív  
+    - Elrendezés: Extracell referencia - Intracell aktív
     - üvegkapilláris mikroelektród
     - hegyezett fém elektród, lakk szigetelés
     - hegyezett fém elektród, üveg szigetelés
@@ -897,6 +897,15 @@ mágneses jelek:
 
 ![](img/magnetometer.png)
 
+## Nagyságrend
+![](eeg-meg-nagysagrend.png)
+
+## MEG lokalizációjának szórása jóval kisebb az EEG-nél
+![](eeg-meg-nagysagrend.png)
+
+## Alkalmazás
+![](meg-vase.png)
+
 # 20. Elektromiográfia
 
   - **Elektromiográfia**: Harántcsíkolt izmok biolelektromos tevékenységének vizsgálata (izomrostok akciós potenciáljai hozzák létre).
@@ -986,5 +995,53 @@ Több részből tevődik össze
 
 Mivel a velőshülvelyű motoros idegköteg vezetési sebességét kívánjuk meghatározni, két ingerlést kell alkalmaznunk. Könyöknél és a csuklónál történt ingerlésnél egyaránt meghatározzuk az izom rángás latenciaidejét, majd a különbségből számítjuk az idegvezetés idejét. (egészségesnél ~ 55,5 m/s)
 
-21. EKG elvezetések típusai, az EKG görbe jellemzői
+# 21. EKG elvezetések típusai, az EKG görbe jellemzői
+
+## A szív ingerképző rendszere
+  Fontos említeni, hogy a szívizomsejtek között gap-junctionok biztosítják az ingerület terjedését
+  1. Sinoatrial Node (SA)
+  2. Atrioventricular Node (AV)
+  3. Bundle of His
+  4. Left bundle branch
+  5. Left posterior fascicle
+  6. Left anterior fascicle
+  7. Left Ventricle
+  8. Ventricular Septum
+  9. Right ventricle
+  10. Right bundle branch
+
+![](heart.png)
+
+## A szívizomsejt potenciálváltozása
+  1. Resting potential -90 mV
+  2. Depolarization (Na+ Ca2+ channels)
+  3. Temporary repolarization (fast K+ channels)
+  4. Plateau (Ca++ fully opened)
+  5. Repolarization (slow K+ channels)
+
+![](cardiac-fibre.png)
+
+
+## Vegetatív idegrendszer hatása
+  1. Chronotrop: szívfrekvencia
+  2. Ionotróp: Izomerő
+  3. Dromotróp: vezetési sebesség
+  4. bathmotrop: ingerlékenység
+
+
+
+
+
+## Nagyságrend
+  - Szív súlya: 250-350 g
+  - Perctérfogat: 4.7-5.7 l
+  - 75 év alatt 3000M összehúzódás
+  - Stroke Volume (SV): ~70 ml vért továbbít
+  - két összehúzódás között 800 msec
+
+## Ejekciós frakció
+  - EDV bal kamra térfogata diasztolé végén: ~120 ml
+  - EF = SV / EDV
+  - általában EF = 0.5-0.7
+
 22. Az EKG kóros eltérései
