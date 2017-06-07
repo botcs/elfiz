@@ -1075,6 +1075,25 @@ Ahol jeletnkezhetnek:
     - Normál [60; 100] BPM
     - Sinus bradycardia <60 BPM
     - Sinus Tahycardia >100 BPM
+    - Sinus arrhytmia
+    - Ventricular tachycardia: Ischemic ventricular muscle circular activation >120 BPM
+      - ![](images/vent-tachy.png)
+    - Ventricular fibrillation: Chaotic ventricular depolarization
+      - ![](images/vent-fibr.png)
   - Pitvar összehúzódás eredete:
     - Sinus Node
-    - Wandering Pacemaker
+    - Wandering Pacemaker (pathologiás is lehet )
+  - Atrial flutter: impulses travel in circular course in atria
+    - Minden második/harmadik AV aktivációra húzódik össze a szív
+    - ![](images/atrial-flutter.png)
+    - ![](images/flutter-wave.png)
+  - Atrial fibrillation: Impulses have chaotic, random pathways in atria
+    - ![](images/AF.png)
+  - A-V block
+    1. Degree (Wenckebach): Atrioventricular conduction lengthened. P variability
+    2. Degree: Sudden dropped QRS-complex
+    3. Degree: right-bundle-branch is defective, Atrial and ventricular activities are not synchronous
+  - Premature ventricular contraction: Extrasystole
+    - ventricular origin -> abnormal QRS
+    - supraventricular origin -> short arrhythmia
+    - ![](images/pvc.png)
