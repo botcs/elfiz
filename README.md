@@ -1066,4 +1066,15 @@ Mivel a velőshülvelyű motoros idegköteg vezetési sebességét kívánjuk me
   - EF = SV / EDV
   - általában EF = 0.5-0.7
 
-22. Az EKG kóros eltérései
+# 22. Az EKG kóros eltérései
+Ahol jeletnkezhetnek:
+
+![](images/card-patho.png)
+
+  - Ritmussal kapcsolatos:
+    - Normál [60; 100] BPM
+    - Sinus bradycardia <60 BPM
+    - Sinus Tahycardia >100 BPM
+  - Pitvar összehúzódás eredete:
+    - Sinus Node
+    - Wandering Pacemaker
