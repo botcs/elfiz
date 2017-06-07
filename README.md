@@ -997,6 +997,32 @@ Mivel a velőshülvelyű motoros idegköteg vezetési sebességét kívánjuk me
 
 # 21. EKG elvezetések típusai, az EKG görbe jellemzői
 
+## Elvezetés típusok
+  - Einthoven féle végtag elvezetések (háromszög)
+    - V1 = phi.L - phi.R
+    - V2 = phi.F - phi.R
+    - V3 = phi.F - phi.L
+    - Föld indifferens pont külön van
+
+  ![](images/einthoven.png)
+
+  - Wilson féle monopoláris elvezetés
+    - Central Terminal (CT) as reference
+    - 5 kOhm resistance between limbs
+
+  ![](images/wilson.png)
+
+  - Goldberger féle augmentált monopoláris elvezetés
+
+  ![](images/goldberger.png)
+
+## Szívciklus Monopoláris elvezetésen
+
+![](images/card-cycle1.png)
+![](images/card-cycle2.png)
+![](images/card-cycle3.png)
+![](images/card-cycle4.png)
+
 ## A szív ingerképző rendszere
   Fontos említeni, hogy a szívizomsejtek között gap-junctionok biztosítják az ingerület terjedését
   1. Sinoatrial Node (SA)
@@ -1027,10 +1053,6 @@ Mivel a velőshülvelyű motoros idegköteg vezetési sebességét kívánjuk me
   2. Ionotróp: Izomerő
   3. Dromotróp: vezetési sebesség
   4. bathmotrop: ingerlékenység
-
-
-
-
 
 ## Nagyságrend
   - Szív súlya: 250-350 g
