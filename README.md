@@ -1097,3 +1097,8 @@ Ahol jeletnkezhetnek:
     - ventricular origin -> abnormal QRS
     - supraventricular origin -> short arrhythmia
     - ![](images/pvc.png)
+  - Infarct:
+    - If a coronary artery is occluded, the transport of oxygen to the cardiac muscle is decreased, causing ischemia.
+    - Ischemia's first signs are visible in T-waves
+    - If oxygen transport is terminated in a certain are, the heart muscle dies in that region. This is called infarction.
+    - An infarct area is electrically silent, force point inward, with this it is possible to locate infarction
