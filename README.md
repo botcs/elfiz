@@ -901,7 +901,7 @@ mágneses jelek:
 ![](img/eeg-meg-nagysagrend.png)
 
 ## MEG lokalizációjának szórása jóval kisebb az EEG-nél
-![](img/eeg-meg.png)
+![](img/meg-eeg.png)
 
 ## Alkalmazás
 ![](img/meg-vase.png)
