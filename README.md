@@ -514,7 +514,7 @@ A két mérőelektród tulajdonságai lehetőleg azonosak legyenek!
 ## Wikipedia
 *Stereotactic surgery or stereotaxy is a minimally invasive form of surgical intervention which makes use of a three-dimensional coordinate system to locate small targets inside the body and to perform on them some action such as ablation, biopsy, lesion, injection, stimulation, implantation, radiosurgery (SRS), etc.
 
-In theory, any organ system inside the body can be subjected to stereotactic surgery. However, difficulties in setting up a reliable frame of reference (such as bone landmarks which bear a constant spatial relation to soft tissues) mean that its applications have been, traditionally and until recently, limited to brain surgery. Besides the brain, biopsy and surgery of the breast are done routinely to locate, sample (biopsy) and remove tissue. Plain X-ray images (radiographic mammography), computed tomography, and magnetic resonance imaging can be used to guide the procedure.*
+In theory, any organ system inside the body can be subjected to stereotactic surgery. However, difficulties in setting up a reliable frame of reference (such as bone landmarks which bear a constant spatial relation to soft tissues) mean that its applications have been, traditionally and until recently, limited to brain surgery. Besides the brain, biopsy and surgery of the breast are done routinely to locate, sample (biopsy) and remove tissue. Plain X-ray img (radiographic mammography), computed tomography, and magnetic resonance imaging can be used to guide the procedure.*
 
   - KOPF model 1404:
     - Electrode holder
@@ -898,13 +898,13 @@ mágneses jelek:
 ![](img/magnetometer.png)
 
 ## Nagyságrend
-![](eeg-meg-nagysagrend.png)
+![](img/eeg-meg-nagysagrend.png)
 
 ## MEG lokalizációjának szórása jóval kisebb az EEG-nél
-![](eeg-meg-nagysagrend.png)
+![](img/eeg-meg-nagysagrend.png)
 
 ## Alkalmazás
-![](meg-vase.png)
+![](img/meg-vase.png)
 
 # 20. Elektromiográfia
 
@@ -1004,24 +1004,24 @@ Mivel a velőshülvelyű motoros idegköteg vezetési sebességét kívánjuk me
     - V3 = phi.F - phi.L
     - Föld indifferens pont külön van
 
-  ![](images/einthoven.png)
+  ![](img/einthoven.png)
 
   - Wilson féle monopoláris elvezetés
     - Central Terminal (CT) as reference
     - 5 kOhm resistance between limbs
 
-  ![](images/wilson.png)
+  ![](img/wilson.png)
 
   - Goldberger féle augmentált monopoláris elvezetés
 
-  ![](images/goldberger.png)
+  ![](img/goldberger.png)
 
 ## Szívciklus Monopoláris elvezetésen
 
-![](images/card-cycle1.png)
-![](images/card-cycle2.png)
-![](images/card-cycle3.png)
-![](images/card-cycle4.png)
+![](img/card-cycle1.png)
+![](img/card-cycle2.png)
+![](img/card-cycle3.png)
+![](img/card-cycle4.png)
 
 ## A szív ingerképző rendszere
   Fontos említeni, hogy a szívizomsejtek között gap-junctionok biztosítják az ingerület terjedését
@@ -1036,7 +1036,7 @@ Mivel a velőshülvelyű motoros idegköteg vezetési sebességét kívánjuk me
   9. Right ventricle
   10. Right bundle branch
 
-![](heart.png)
+![](img/heart.png)
 
 ## A szívizomsejt potenciálváltozása
   1. Resting potential -90 mV
@@ -1045,7 +1045,7 @@ Mivel a velőshülvelyű motoros idegköteg vezetési sebességét kívánjuk me
   4. Plateau (Ca++ fully opened)
   5. Repolarization (slow K+ channels)
 
-![](cardiac-fibre.png)
+![](img/cardiac-fibre.png)
 
 
 ## Vegetatív idegrendszer hatása
