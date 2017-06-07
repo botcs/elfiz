@@ -897,6 +897,15 @@ mágneses jelek:
 
 ![](img/magnetometer.png)
 
+## Nagyságrend
+![](eeg-meg-nagysagrend.png)
+
+## MEG lokalizációjának szórása jóval kisebb az EEG-nél
+![](eeg-meg-nagysagrend.png)
+
+## Alkalmazás
+![](meg-vase.png)
+
 # 20. Elektromiográfia
 
   - **Elektromiográfia**: Harántcsíkolt izmok biolelektromos tevékenységének vizsgálata (izomrostok akciós potenciáljai hozzák létre).
@@ -986,5 +995,17 @@ Több részből tevődik össze
 
 Mivel a velőshülvelyű motoros idegköteg vezetési sebességét kívánjuk meghatározni, két ingerlést kell alkalmaznunk. Könyöknél és a csuklónál történt ingerlésnél egyaránt meghatározzuk az izom rángás latenciaidejét, majd a különbségből számítjuk az idegvezetés idejét. (egészségesnél ~ 55,5 m/s)
 
-21. EKG elvezetések típusai, az EKG görbe jellemzői
+# 21. EKG elvezetések típusai, az EKG görbe jellemzői
+
+## Nagyságrend
+  - Szív súlya: 250-350 g
+  - Perctérfogat: 4.7-5.7 l
+  - 75 év alatt 3000M összehúzódás
+  - Stroke Volume (SV): ~70 ml vért továbbít
+
+## Ejekciós frakció
+  - EDV bal kamra térfogata diasztolé végén: ~120 ml
+  - EF = SV / EDV
+  - általában EF = 0.5-0.7
+
 22. Az EKG kóros eltérései
